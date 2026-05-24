@@ -30,7 +30,8 @@ typedef struct {
     int  izin;
     long boyut;
 } DosyaBilgi;
-
+/* Dosyanin ASCII metin olup olmadigini kontrol eder.
+ * Binary dosyalar reddedilir, UTF-8 Turkce karakterler kabul edilir. */
 int metin_mi(const char *yol) {
     FILE *f = fopen(yol, "rb");
     if (!f) return 0;
