@@ -1,3 +1,20 @@
+/*
+ * tarsau - Basit Arsivleme Programi
+ * Sistem Programlama 2025-2026 Bahar Donemi Projesi
+ *
+ * Gelistiriciler:
+ *   - betulgumus
+ *   - murtaduelama
+ *
+ * Aciklama:
+ *   Bu program, birden fazla metin dosyasini tek bir .sau
+ *   arsiv dosyasina birlestirir ve geri acar.
+ *   Sikistirma yapilmaz, yalnizca birlestirme islemi gerceklestirilir.
+ *
+ * Kullanim:
+ *   tarsau -b dosya1 dosya2 -o arsiv.sau  (arsivleme)
+ *   tarsau -a arsiv.sau [dizin]            (acma)
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
